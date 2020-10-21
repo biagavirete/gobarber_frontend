@@ -10,6 +10,7 @@ import logoImg from '../../assets/logo.svg';
 import { FiClock, FiPower } from 'react-icons/fi';
 import { useAuth } from '../../hooks/auth';
 import api from '../../services/api';
+import { Link } from 'react-router-dom';
 
 interface MonthAvailabilityItem {
   day: number;
@@ -37,7 +38,7 @@ const Dashboard: React.FC = () => {
   const [appointments, setAppointments] = useState<Appointment[]>([]);
 
   const handleDateChange = useCallback((day: Date, modifiers: DayModifiers) => {
-    if (modifiers.available) {
+    if (modifiers.available && !modifiers.disabled) {
       setSelectedDate(day);
     }
   }, []);
@@ -128,7 +129,7 @@ const Dashboard: React.FC = () => {
         <img src={user.avatar_url} alt={user.name} />
         <div>
           <span>Bem-vindo,</span>
-          <strong>{user.name}</strong>
+          <Link to="/profile"><strong>{user.name}</strong></Link>
         </div>
       </Profile>
 
