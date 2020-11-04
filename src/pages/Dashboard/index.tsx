@@ -93,8 +93,7 @@ const Dashboard: React.FC = () => {
   const selectedDateAsText = useMemo(() => {
     return format(selectedDate, "'Dia' dd 'de' MMMM", {
       locale: ptBr
-    })
-
+    });
   }, [selectedDate]);
 
   const selectedWeekDay = useMemo(() => {
