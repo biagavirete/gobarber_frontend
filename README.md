@@ -8,13 +8,13 @@ Front-end project using ReactJS with Typescript.
 To see the mobile client, click [here](https://github.com/biagavirete/gobarber_mobile).</i>
 
 <p align="center" width="100%">
-    <img src="https://github.com/biagavirete/gorestaurant/blob/master/src/assets/login.png">
+    <img src="https://github.com/biagavirete/gobarber_frontend/blob/master/src/assets/login.png">
 </p>
 <p align="center" width="100%">
-    <img src="https://github.com/biagavirete/gorestaurant/blob/master/src/assets/dash.png">
+    <img src="https://github.com/biagavirete/gobarber_frontend/blob/master/src/assets/dash.png">
 </p>
 <p align="center" width="100%">
-    <img src="https://github.com/biagavirete/gorestaurant/blob/master/src/assets/profile-page">
+    <img src="https://github.com/biagavirete/gobarber_frontend/blob/master/src/assets/profile-page">
 </p>
 
 ## Getting started
