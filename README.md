@@ -4,7 +4,7 @@ GoBarber is the final project developed during the GoStack Bootcamp ([Rocketseat
 
 Front-end project using ReactJS with Typescript.
 
-<i>To see the api (back-end project), click [here](https://github.com/biagavirete/gobarber_backend).
+<i>To see the api (back-end project), click [here](https://github.com/biagavirete/gobarber_backend).<br>
 To see the mobile client, click [here](https://github.com/biagavirete/gobarber_mobile).</i>
 
 <p align="center" width="100%">
