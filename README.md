@@ -1,6 +1,6 @@
 # GoBarber Web
 
-GoBarber is the final project developed during the GoStack Bootcamp ([Rocketseat](https://rocketseat.com.br/) :rocket:). It is a barber shop application that allows barbers (providers) to inform their schedule availability and users to choose the provider and schedule their appointments.
+GoBarber is the final project developed during the GoStack Bootcamp ([Rocketseat](https://rocketseat.com.br/) :rocket:). It is a barber shop application that allows barbers (providers) to inform their schedule availability and customers to choose the provider and schedule their appointments.
 
 Front-end project using ReactJS with Typescript.
 
